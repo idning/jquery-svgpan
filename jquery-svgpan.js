@@ -152,8 +152,8 @@
                  */
                 getEventPoint = function (evt) {
                     var p = root.createSVGPoint(),
-                        offsetX = evt.offsetX,
-                        offsetY = evt.offsetY,
+                        offsetX = evt.x,
+                        offsetY = evt.y,
                         offset,
                         ctm,
                         matrix;
